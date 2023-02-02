@@ -65,6 +65,12 @@ const App = () => {
     },
   ]
 
+  const kevinsThings = [
+    {
+      name: "Things!"
+    }
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -83,7 +89,7 @@ const App = () => {
       />
       <Route
         path="/the-kevin-things"
-        element={<KevinThings things={huntersThings} />}
+        element={<KevinThings things={kevinsThings} />}
       />
     </Routes>
   )
