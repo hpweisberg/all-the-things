@@ -4,6 +4,7 @@ import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
 import KevinThings from './pages/KevinThings/KevinThings'
+import HarrisonThings from './pages/HarrisonThings/HarrisonThings'
 import BrandonComponent from './components/BrandonComponent/BrandonComponent'
 
 const App = () => {
@@ -63,16 +64,6 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
-
-  const brandonsThings = [
-    {
-      name: "EWI",
-      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
-      attributes: ["musical", "electronic", "melodic", "cool"],
-    },
-  ]
-
-  
 
   return (
     <Routes>
