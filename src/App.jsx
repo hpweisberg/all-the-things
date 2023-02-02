@@ -3,6 +3,7 @@ import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
+import HarrisonThings from './pages/HarrisonThings/HarrisonThings'
 
 const App = () => {
   const bensThings = [
@@ -60,6 +61,14 @@ const App = () => {
       image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
+  ]
+
+  const harrisonThings = [
+    {
+      name: "Chow",
+      image: "https://i.imgur.com/q9zgcaP.jpg",
+      attributes: ['Cat', 'hungry', 'fluffy']
+    }
   ]
 
   return (
