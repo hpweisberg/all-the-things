@@ -69,7 +69,7 @@ const App = () => {
     {
       name: "Things!"
     }
-  
+  ]
 
   const HarrisonThings = [
     {
