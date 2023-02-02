@@ -4,6 +4,8 @@ import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
 import KevinThings from './pages/KevinThings/KevinThings'
+import HarrisonThings from './pages/HarrisonThings/HarrisonThings'
+import BrandonComponent from './components/BrandonComponent/BrandonComponent'
 
 const App = () => {
   const bensThings = [
