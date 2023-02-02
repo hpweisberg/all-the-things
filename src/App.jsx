@@ -65,6 +65,11 @@ const App = () => {
     },
   ]
 
+  const kevinsThings = [
+    {
+      name: "Things!"
+    }
+
   const HarrisonThings = [
     {
       name: "Chow",
@@ -91,7 +96,7 @@ const App = () => {
       />
       <Route
         path="/the-kevin-things"
-        element={<KevinThings things={huntersThings} />}
+        element={<KevinThings things={kevinsThings} />}
       />
       <Route
         path="/HarrisonThings"
