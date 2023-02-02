@@ -69,6 +69,13 @@ const App = () => {
     {
       name: "Things!"
     }
+
+  const HarrisonThings = [
+    {
+      name: "Chow",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["Cat", "Sleepy", "Hungry", "Fluffy"],
+    },
   ]
 
   return (
@@ -90,6 +97,10 @@ const App = () => {
       <Route
         path="/the-kevin-things"
         element={<KevinThings things={kevinsThings} />}
+      />
+      <Route
+        path="/HarrisonThings"
+        element={<HarrisonThings things={HarrisonThings} />}
       />
     </Routes>
   )
