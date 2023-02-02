@@ -68,7 +68,7 @@ const App = () => {
   const kevinsThings = [
     {
       name: "Things!",
-      attributes: ['test', 'testing']
+      attributes: ['test', 'testing', 'Has blond hair', 'has glasses']
     }
   ]
 
